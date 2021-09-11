@@ -1,2 +1,2 @@
-Stock Management
+Stock Management using Reactjs
 
