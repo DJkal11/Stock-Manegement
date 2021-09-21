@@ -55,22 +55,6 @@ function AddStock(props) {
         <button onClick={() => props.onCall(2)}>View Stock</button>
       </div>
       <h2>Add Stock</h2>
-      <label>Items Recieved</label>
-      <input
-        onChange={getInput}
-        name="itemsRecieved"
-        value={Input.itemsRecieved}
-      />
-
-      <div>
-        <label>Price per Item Recieved</label>
-        <input
-          type="number"
-          onChange={getPrice}
-          name="itemPrice"
-          value={Input.itemPrice}
-        />
-      </div>
 
       <div className="dropBox">
         <label>Select a Product Code</label>
@@ -91,6 +75,23 @@ function AddStock(props) {
             Product3
           </option>
         </select>
+      </div>
+
+      <label>Items Recieved</label>
+      <input
+        onChange={getInput}
+        name="itemsRecieved"
+        value={Input.itemsRecieved}
+      />
+
+      <div>
+        <label>Price per Item Recieved</label>
+        <input
+          type="number"
+          onChange={getPrice}
+          name="itemPrice"
+          value={Input.itemPrice}
+        />
       </div>
 
       <div className="dropBox">
